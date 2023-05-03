@@ -1,13 +1,17 @@
 .header{
-    color: #03A9F4;
+    
     margin-top: 71px;
     margin-left: 315px;
     height: 19px;
     width: 71px;
     position: absolute;
+    display: inline;
+    color: #7D7D7D;
 }
-.header:hover{
+
+header:hover{
     cursor: pointer;
+    color: aquamarine;
 }
 .hdr{
     color:#7D7D7D ;
@@ -16,6 +20,11 @@
     height: 19px;
     width: 71px;
     position: absolute;
+    display: inline;
+}
+.hdr:hover{
+    cursor: pointer;
+    color: aquamarine;
 }
 .music{
     color:#7D7D7D ;
@@ -24,6 +33,11 @@
     height: 19px;
     width: 71px;
     position: absolute;
+    display: inline;
+}
+.music:hover{
+    cursor: pointer;
+    color: aquamarine;
 }
 .travel{
     color:#7D7D7D ;
@@ -32,4 +46,9 @@
     height: 19px;
     width: 71px;
     position: absolute;
+    display: inline;
+}
+.travel:hover{
+    cursor: pointer;
+    color: aquamarine;
 }
