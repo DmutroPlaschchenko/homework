@@ -1,54 +1,60 @@
-.header{
+body {
+    font-family: 'Playfair Display', serif;
     
-    margin-top: 71px;
-    margin-left: 315px;
-    height: 19px;
-    width: 71px;
-    position: absolute;
-    display: inline;
-    color: #7D7D7D;
 }
 
-header:hover{
+.lifestyle {
+    color: #7d7d7d;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-transform: uppercase;
+}
+
+.lifestyle:hover {
     cursor: pointer;
     color: aquamarine;
 }
-.hdr{
-    color:#7D7D7D ;
-    margin-top: 71px;
-    margin-left: 485px;
-    height: 19px;
-    width: 71px;
-    position: absolute;
-    display: inline;
+
+.header {
+    margin-top: 70px;
+    margin-bottom: 90px;
+    text-align: center;
 }
-.hdr:hover{
-    cursor: pointer;
-    color: aquamarine;
+
+.kartynka {
+    display: block;
+    width: 420px;
+    height: 280px;
 }
-.music{
-    color:#7D7D7D ;
-    margin-top: 71px;
-    margin-left: 674px;
-    height: 19px;
-    width: 71px;
-    position: absolute;
-    display: inline;
+
+.lil_lifestyle {
+    color: #b4ad9e;
+    font-weight:300 ;
+    font-size: 14px;
+    line-height: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 150px;
+    text-transform: uppercase;
+    margin-top: 62px;
 }
-.music:hover{
-    cursor: pointer;
-    color: aquamarine;
+
+.card-title {
+    font-size: 30px;
+    line-height: 40px;
+    color: #626262;
+    margin-top: 32px;
+    font-weight: 400;
 }
-.travel{
-    color:#7D7D7D ;
-    margin-top: 71px;
-    margin-left: 818px;
-    height: 19px;
-    width: 71px;
-    position: absolute;
-    display: inline;
+.card{
+    width: 420px;
+    margin-left: 150px;
+
 }
-.travel:hover{
-    cursor: pointer;
-    color: aquamarine;
+.card-text{
+    font-size: 14px;
+    line-height: 19px;
+    color: #626262;
 }
