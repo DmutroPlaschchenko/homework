@@ -36,8 +36,9 @@ body {
     font-size: 14px;
     line-height: 16px;
     font-family: 'Ubuntu', sans-serif;
-    margin-left: 150px;
+    
     text-transform: uppercase;
+     text-align: center;
     margin-top: 62px;
 }
 
